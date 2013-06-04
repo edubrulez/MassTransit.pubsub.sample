@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher.Web", "Publisher.Web\Publisher.Web.csproj", "{D015AB5F-1724-4B58-8314-362041F3AA65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher.Domain", "Publisher.Domain\Publisher.Domain.csproj", "{F77E46DE-25A8-4626-8304-F510D3D6E3B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Messages\Messages.csproj", "{08CEEEA1-D6C9-40BF-8ED6-814A5F7053B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{D015AB5F-1724-4B58-8314-362041F3AA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D015AB5F-1724-4B58-8314-362041F3AA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D015AB5F-1724-4B58-8314-362041F3AA65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F77E46DE-25A8-4626-8304-F510D3D6E3B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77E46DE-25A8-4626-8304-F510D3D6E3B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77E46DE-25A8-4626-8304-F510D3D6E3B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77E46DE-25A8-4626-8304-F510D3D6E3B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08CEEEA1-D6C9-40BF-8ED6-814A5F7053B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CEEEA1-D6C9-40BF-8ED6-814A5F7053B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08CEEEA1-D6C9-40BF-8ED6-814A5F7053B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08CEEEA1-D6C9-40BF-8ED6-814A5F7053B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

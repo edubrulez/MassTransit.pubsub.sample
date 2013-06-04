@@ -2,6 +2,7 @@
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using Publisher.Domain;
 
 namespace Publisher
 {
@@ -19,6 +20,8 @@ namespace Publisher
 			RouteConfig.RegisterRoutes(RouteTable.Routes);
 			BundleConfig.RegisterBundles(BundleTable.Bundles);
 			AuthConfig.RegisterAuth();
+
+			new WebApplication().Startup();
 		}
 	}
 }

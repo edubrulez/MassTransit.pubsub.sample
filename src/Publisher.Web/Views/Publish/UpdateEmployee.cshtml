@@ -1,0 +1,15 @@
+﻿@model Publisher.Models.Employee
+
+@{
+	ViewBag.Title = "Update Employee";
+}
+
+<h2>Update Employee</h2>
+
+@{ Html.BeginForm("UpdateEmployee", "Publish", FormMethod.Post);}
+
+<p>First Name: @Html.TextBoxFor(x => x.FirstName)</p>
+<p>Last Name: @Html.TextBoxFor(x => x.LastName)</p>
+<p><input type="submit" /></p>
+
+@{Html.EndForm();}
