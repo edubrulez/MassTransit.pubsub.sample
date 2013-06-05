@@ -23,7 +23,7 @@ namespace Publisher.Controllers
 		{
 			new PublishAbstraction().Publish(new UpdateEmployeeMessage
 				{
-					Id = new Guid(),
+					Id = Guid.NewGuid(),
 					FirstName = employee.FirstName,
 					LastName = employee.LastName
 				});
