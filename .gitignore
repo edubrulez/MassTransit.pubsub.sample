@@ -1,0 +1,16 @@
+*.swp
+*.suo
+*.user
+*.cache
+*.resharper
+_ReSharper*/
+bin
+obj
+artifacts/
+*.dotCover
+log*.txt*
+*.log
+Visual Studio 2010/*
+*.Publish.xml
+*.orig
+TestResult.xml
