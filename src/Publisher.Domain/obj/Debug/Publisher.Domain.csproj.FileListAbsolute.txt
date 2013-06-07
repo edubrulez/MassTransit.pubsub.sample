@@ -16,3 +16,14 @@ E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Domain\bin\Debug\Rab
 E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Domain\obj\Debug\ResolveAssemblyReference.cache
 E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Domain\obj\Debug\Publisher.Domain.dll
 E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Domain\obj\Debug\Publisher.Domain.pdb
+E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Domain\bin\Debug\StructureMap.dll
+E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Domain\bin\Debug\StructureMap.pdb
+E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Domain\bin\Debug\StructureMap.xml
+E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Domain\bin\Debug\System.Web.Http.WebHost.dll
+E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Domain\bin\Debug\System.Web.Http.dll
+E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Domain\bin\Debug\System.Net.Http.dll
+E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Domain\bin\Debug\System.Net.Http.Formatting.dll
+E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Domain\bin\Debug\System.Web.Http.WebHost.xml
+E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Domain\bin\Debug\System.Web.Http.xml
+E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Domain\bin\Debug\System.Net.Http.xml
+E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Domain\bin\Debug\System.Net.Http.Formatting.xml

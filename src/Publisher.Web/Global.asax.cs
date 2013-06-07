@@ -22,6 +22,7 @@ namespace Publisher
 			AuthConfig.RegisterAuth();
 
 			new WebApplication().Startup();
+			DependencyResolver.SetResolver(IocAbstraction.Resolve<IDependencyResolver>());
 		}
 	}
 }

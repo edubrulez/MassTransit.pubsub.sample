@@ -8,6 +8,13 @@ namespace Publisher.Controllers
 {
 	public class PublishController : Controller
 	{
+		private readonly IPublishAbstraction _publishAbstraction;
+
+		public PublishController(IPublishAbstraction publishAbstraction)
+		{
+			_publishAbstraction = publishAbstraction;
+		}
+
 		[HttpGet]
 		public ActionResult UpdateEmployee()
 		{
@@ -21,7 +28,7 @@ namespace Publisher.Controllers
 		[HttpPost]
 		public ActionResult UpdateEmployee(Employee employee)
 		{
-			new PublishAbstraction().Publish(new UpdateEmployeeMessage
+			_publishAbstraction.Publish(new UpdateEmployeeMessage
 				{
 					Id = Guid.NewGuid(),
 					FirstName = employee.FirstName,

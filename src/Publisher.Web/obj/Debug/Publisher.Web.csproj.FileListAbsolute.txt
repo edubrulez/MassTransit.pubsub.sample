@@ -65,3 +65,6 @@ E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Web\bin\RabbitMQ.Cli
 E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Web\obj\Debug\ResolveAssemblyReference.cache
 E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Web\obj\Debug\Publisher.dll
 E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Web\obj\Debug\Publisher.pdb
+E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Web\bin\StructureMap.dll
+E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Web\bin\StructureMap.pdb
+E:\Documents\GitHub\MassTransit.pubsub.sample\src\Publisher.Web\bin\StructureMap.xml

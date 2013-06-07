@@ -2,11 +2,23 @@
 
 namespace Publisher.Domain
 {
-	public class PublishAbstraction
+	public interface IPublishAbstraction
 	{
+		void Publish(object message);
+	}
+
+	public class PublishAbstraction : IPublishAbstraction
+	{
+		private readonly IServiceBus _serviceBus;
+
+		public PublishAbstraction(IServiceBus serviceBus)
+		{
+			_serviceBus = serviceBus;
+		}
+
 		public void Publish(object message)
 		{
-			Bus.Instance.Publish(message);
+			_serviceBus.Publish(message);
 		}
 	}
 }
