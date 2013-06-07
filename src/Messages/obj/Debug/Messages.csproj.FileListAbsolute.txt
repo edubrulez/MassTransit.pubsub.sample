@@ -1,5 +1,0 @@
-E:\Documents\GitHub\MassTransit.pubsub.sample\src\Messages\bin\Debug\Messages.dll
-E:\Documents\GitHub\MassTransit.pubsub.sample\src\Messages\bin\Debug\Messages.pdb
-E:\Documents\GitHub\MassTransit.pubsub.sample\src\Messages\obj\Debug\ResolveAssemblyReference.cache
-E:\Documents\GitHub\MassTransit.pubsub.sample\src\Messages\obj\Debug\Messages.dll
-E:\Documents\GitHub\MassTransit.pubsub.sample\src\Messages\obj\Debug\Messages.pdb

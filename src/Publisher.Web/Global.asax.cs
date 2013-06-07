@@ -21,7 +21,7 @@ namespace Publisher
 			BundleConfig.RegisterBundles(BundleTable.Bundles);
 			AuthConfig.RegisterAuth();
 
-			new WebApplication().Startup();
+			IocAbstraction.Bootstrap();
 			DependencyResolver.SetResolver(IocAbstraction.Resolve<IDependencyResolver>());
 		}
 	}

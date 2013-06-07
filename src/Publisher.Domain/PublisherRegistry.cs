@@ -14,7 +14,6 @@ namespace Publisher.Domain
 					cfg.UseRabbitMq();
 					cfg.ReceiveFrom("rabbitmq://localhost/MassTransit.publisher.sample");
 				}));
-			//For<IControllerActivator>().Use<StructureMapControllerActivator>();
 			For<IDependencyResolver>().Use<StructureMapDependencyResolver>();
 		}
 	}
