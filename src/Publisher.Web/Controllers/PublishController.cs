@@ -28,7 +28,7 @@ namespace Publisher.Controllers
 		[HttpPost]
 		public ActionResult UpdateEmployee(Employee employee)
 		{
-			_publishAbstraction.Publish(new UpdateEmployeeMessage
+			_publishAbstraction.Publish(new EmployeeUpdatedMessage
 				{
 					Id = Guid.NewGuid(),
 					FirstName = employee.FirstName,

@@ -2,7 +2,7 @@
 
 namespace Messages
 {
-	public class UpdateEmployeeMessage
+	public class EmployeeUpdatedMessage
 	{
 		public Guid Id { get; set; }
 		public string FirstName { get; set; }
