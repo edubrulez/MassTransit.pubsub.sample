@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{F967538E-7462-4CC2-B998-BD25746FD555}</ProjectGuid>
+    <ProjectGuid>{CB63C5C8-3BCF-4D15-BB32-F4DA0860E642}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Subscriber.CompetingConsumer1</RootNamespace>
-    <AssemblyName>Subscriber.CompetingConsumer1</AssemblyName>
+    <RootNamespace>Subscriber.CompetingConsumer2</RootNamespace>
+    <AssemblyName>Subscriber.CompetingConsumer2</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -62,11 +62,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompetingConsumerMessageConsumer.cs" />
     <Compile Include="ConsumerRegistry.cs" />
     <Compile Include="IocAbstraction.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="CompetingConsumerMessageConsumer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

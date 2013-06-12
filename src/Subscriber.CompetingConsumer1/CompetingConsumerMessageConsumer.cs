@@ -4,7 +4,7 @@ using Messages;
 
 namespace Subscriber.CompetingConsumer1
 {
-	public class UpdateEmployeeConsumer : Consumes<CompetingConsumerMessage>.All
+	public class CompetingConsumerMessageConsumer : Consumes<CompetingConsumerMessage>.All
 	{
 		public void Consume(CompetingConsumerMessage updatedMessage)
 		{

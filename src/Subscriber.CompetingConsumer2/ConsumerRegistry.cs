@@ -1,7 +1,7 @@
 ﻿using MassTransit;
 using StructureMap.Configuration.DSL;
 
-namespace Subscriber.CompetingConsumer1
+namespace Subscriber.CompetingConsumer2
 {
 	public class ConsumerRegistry : Registry
 	{
@@ -17,6 +17,7 @@ namespace Subscriber.CompetingConsumer1
 			For<IServiceBus>().Use(ServiceBusFactory.New(cfg =>
 				{
 					cfg.UseRabbitMq();
+					// NOTE: this competing consumer uses the same queue as the other subscriber
 					cfg.ReceiveFrom("rabbitmq://localhost/Subscriber.CompetingConsumer");
 					cfg.Subscribe(s => s.Consumer<CompetingConsumerMessageConsumer>());
 				}));
