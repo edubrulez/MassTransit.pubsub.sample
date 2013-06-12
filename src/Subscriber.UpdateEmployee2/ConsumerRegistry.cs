@@ -21,7 +21,7 @@ namespace Subscriber.UpdateEmployee2
 					// NOTE: Notice that this is a different queue than the other consumer of the same message
 					cfg.ReceiveFrom("rabbitmq://localhost/Subscriber.CooperatingConsumer");
 
-					cfg.Subscribe(s => s.Consumer<UpdateEmployeeConsumer>());
+					cfg.Subscribe(s => s.Consumer<MultiConsumerMessageConsumer>());
 				}));
 		}
 	}

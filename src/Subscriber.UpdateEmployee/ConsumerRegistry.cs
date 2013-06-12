@@ -18,7 +18,7 @@ namespace Subscriber.UpdateEmployee
 				{
 					cfg.UseRabbitMq();
 					cfg.ReceiveFrom("rabbitmq://localhost/Subscriber.Console");
-					cfg.Subscribe(s => s.Consumer<UpdateEmployeeConsumer>());
+					cfg.Subscribe(s => s.Consumer<MultiConsumerMessageConsumer>());
 				}));
 		}
 	}

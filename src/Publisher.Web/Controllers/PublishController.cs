@@ -16,9 +16,9 @@ namespace Publisher.Controllers
 		}
 
 		[HttpGet]
-		public ActionResult UpdateEmployee()
+		public ActionResult MultipleConsumer()
 		{
-			return View(new Employee
+			return View(new MultipleConsumerModel
 				{
 					FirstName = "first",
 					LastName = "last"
@@ -26,16 +26,16 @@ namespace Publisher.Controllers
 		}
 
 		[HttpPost]
-		public ActionResult UpdateEmployee(Employee employee)
+		public ActionResult MultipleConsumer(MultipleConsumerModel multipleConsumerModel)
 		{
-			_publishAbstraction.Publish(new EmployeeUpdatedMessage
+			_publishAbstraction.Publish(new MultiConsumerMessage
 				{
 					Id = Guid.NewGuid(),
-					FirstName = employee.FirstName,
-					LastName = employee.LastName
+					FirstName = multipleConsumerModel.FirstName,
+					LastName = multipleConsumerModel.LastName
 				});
 
-			return View(employee);
+			return View(multipleConsumerModel);
 		}
 
 

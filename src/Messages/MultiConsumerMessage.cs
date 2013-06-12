@@ -2,7 +2,7 @@
 
 namespace Messages
 {
-	public class EmployeeUpdatedMessage
+	public class MultiConsumerMessage
 	{
 		public Guid Id { get; set; }
 		public string FirstName { get; set; }

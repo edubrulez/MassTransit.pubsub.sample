@@ -170,7 +170,7 @@
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\CompetingConsumerModel.cs" />
-    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\MultipleConsumerModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -293,7 +293,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-2.0.1.min.map" />
-    <Content Include="Views\Publish\UpdateEmployee.cshtml" />
+    <Content Include="Views\Publish\MultipleConsumer.cshtml" />
     <Content Include="Views\Publish\CompetingConsumer.cshtml" />
   </ItemGroup>
   <ItemGroup>

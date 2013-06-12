@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher.Domain", "Publish
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Messages\Messages.csproj", "{08CEEEA1-D6C9-40BF-8ED6-814A5F7053B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber.UpdateEmployee", "Subscriber.UpdateEmployee\Subscriber.UpdateEmployee.csproj", "{963A1248-D025-4CDF-8696-9413BC262D4A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber.MultipleConsumer1", "Subscriber.UpdateEmployee\Subscriber.MultipleConsumer1.csproj", "{963A1248-D025-4CDF-8696-9413BC262D4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber.UpdateEmployeeCooperatingConsumer", "Subscriber.UpdateEmployee2\Subscriber.UpdateEmployeeCooperatingConsumer.csproj", "{7353B393-DE06-4D16-BBAB-25C7F3AC3FF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber.MulitpleConsumer2", "Subscriber.UpdateEmployee2\Subscriber.MulitpleConsumer2.csproj", "{7353B393-DE06-4D16-BBAB-25C7F3AC3FF1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber.CompetingConsumer1", "Subscriber.CompetingConsumer1\Subscriber.CompetingConsumer1.csproj", "{F967538E-7462-4CC2-B998-BD25746FD555}"
 EndProject
