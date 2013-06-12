@@ -169,6 +169,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\CompetingConsumerModel.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -293,6 +294,7 @@
   <ItemGroup>
     <None Include="Scripts\jquery-2.0.1.min.map" />
     <Content Include="Views\Publish\UpdateEmployee.cshtml" />
+    <Content Include="Views\Publish\CompetingConsumer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Messages\Messages.csproj">

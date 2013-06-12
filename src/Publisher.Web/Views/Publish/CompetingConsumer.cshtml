@@ -1,0 +1,15 @@
+﻿@model Publisher.Models.CompetingConsumerModel
+
+@{
+	ViewBag.Title = "Competing Consumer Sample";
+}
+
+<h2>Update Employee</h2>
+
+@{ Html.BeginForm("CompetingConsumer", "Publish", FormMethod.Post);}
+
+<p>First Name: @Html.TextBoxFor(x => x.Name)</p>
+<p>Last Name: @Html.TextBoxFor(x => x.Age)</p>
+<p><input type="submit" /></p>
+
+@{Html.EndForm();}

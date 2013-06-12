@@ -37,5 +37,30 @@ namespace Publisher.Controllers
 
 			return View(employee);
 		}
+
+
+		[HttpGet]
+		public ActionResult CompetingConsumer()
+		{
+			return View(new CompetingConsumerModel
+			{
+				Name = "first last",
+				Age = 21
+			});
+		}
+
+		[HttpPost]
+		public ActionResult CompetingConsumer(CompetingConsumerModel competingConsumerModel)
+		{
+			_publishAbstraction.Publish(new CompetingConsumerMessage
+			{
+				Id = Guid.NewGuid(),
+				Name = competingConsumerModel.Name,
+				Age = competingConsumerModel.Age
+			});
+
+			return View(competingConsumerModel);
+		}
+
 	}
 }
