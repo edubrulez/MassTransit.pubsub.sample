@@ -1,0 +1,14 @@
+﻿@model Publisher.Models.SeparateCopyOfMessageClassModel
+
+@{
+	ViewBag.Title = "Separate Copy Of Message Class Model";
+}
+
+<h2>Separate Copy Of Message Class Model</h2>
+
+@{ Html.BeginForm("SeparateCopyOfMessageClass", "Publish", FormMethod.Post);}
+
+<p>Message: @Html.TextBoxFor(x => x.TestMessage)</p>
+<p><input type="submit" /></p>
+
+@{Html.EndForm();}

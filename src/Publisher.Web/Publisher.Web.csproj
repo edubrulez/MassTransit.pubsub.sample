@@ -119,6 +119,7 @@
     </Compile>
     <Compile Include="Models\CompetingConsumerModel.cs" />
     <Compile Include="Models\MultipleConsumerModel.cs" />
+    <Compile Include="Models\SeparateCopyOfMessageClassModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -231,6 +232,7 @@
     <None Include="Scripts\jquery-2.0.1.min.map" />
     <Content Include="Views\Publish\MultipleConsumer.cshtml" />
     <Content Include="Views\Publish\CompetingConsumer.cshtml" />
+    <Content Include="Views\Publish\SeparateCopyOfMessageClass.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Messages\Messages.csproj">

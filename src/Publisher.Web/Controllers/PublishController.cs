@@ -62,5 +62,26 @@ namespace Publisher.Controllers
 			return View(competingConsumerModel);
 		}
 
+		[HttpGet]
+		public ActionResult SeparateCopyOfMessageClass()
+		{
+			return View(new SeparateCopyOfMessageClassModel
+			{
+				TestMessage = "test text"
+			});
+		}
+
+		[HttpPost]
+		public ActionResult SeparateCopyOfMessageClass(SeparateCopyOfMessageClassModel separateCopyOfMessageClassModel)
+		{
+			_publishAbstraction.Publish(new SeparateCopyOfMessageInSubscriber
+			{
+				Id = Guid.NewGuid(),
+				test = separateCopyOfMessageClassModel.TestMessage,
+			});
+
+			return View(separateCopyOfMessageClassModel);
+		}
+
 	}
 }
