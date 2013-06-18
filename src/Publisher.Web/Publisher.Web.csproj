@@ -120,6 +120,7 @@
     <Compile Include="Models\CompetingConsumerModel.cs" />
     <Compile Include="Models\MultipleConsumerModel.cs" />
     <Compile Include="Models\SeparateCopyOfMessageClassModel.cs" />
+    <Compile Include="Models\TopshelfModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -233,6 +234,7 @@
     <Content Include="Views\Publish\MultipleConsumer.cshtml" />
     <Content Include="Views\Publish\CompetingConsumer.cshtml" />
     <Content Include="Views\Publish\SeparateCopyOfMessageClass.cshtml" />
+    <Content Include="Views\Publish\Topshelf.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Messages\Messages.csproj">

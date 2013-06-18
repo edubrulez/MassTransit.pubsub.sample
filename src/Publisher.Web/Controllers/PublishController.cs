@@ -83,5 +83,26 @@ namespace Publisher.Controllers
 			return View(separateCopyOfMessageClassModel);
 		}
 
+		[HttpGet]
+		public ActionResult Topshelf()
+		{
+			return View(new TopshelfModel
+			{
+				Message = "Topshelf works"
+			});
+		}
+
+		[HttpPost]
+		public ActionResult Topshelf(TopshelfModel separateCopyOfMessageClassModel)
+		{
+			_publishAbstraction.Publish(new TopshelfMessage
+			{
+				Id = Guid.NewGuid(),
+				MessageText = separateCopyOfMessageClassModel.Message,
+			});
+
+			return View(separateCopyOfMessageClassModel);
+		}
+
 	}
 }

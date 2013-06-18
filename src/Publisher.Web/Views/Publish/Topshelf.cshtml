@@ -1,0 +1,14 @@
+﻿@model Publisher.Models.TopshelfModel
+
+@{
+	ViewBag.Title = "Topshelf example";
+}
+
+<h2>Separate Copy Of Message Class Model</h2>
+
+@{ Html.BeginForm("Topshelf", "Publish", FormMethod.Post);}
+
+<p>Message: @Html.TextBoxFor(x => x.Message)</p>
+<p><input type="submit" /></p>
+
+@{Html.EndForm();}
